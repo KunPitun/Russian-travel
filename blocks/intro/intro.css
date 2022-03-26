@@ -14,14 +14,14 @@
 @media screen and (min-width: 1024px) {
   .intro {
     width: 690px;
-    margin: 0 0 92px 0;  
-    left: 48px;   
+    margin: 0 0 92px 0;
+    left: 48px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .intro {
-    left: 148px;        
+    left: 148px;
   }
 }
 
