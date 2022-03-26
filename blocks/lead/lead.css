@@ -1,0 +1,26 @@
+.lead {
+  width: 100%;
+  margin: 0 0 64px 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .lead {
+    margin: 0 0 88px 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead {
+      margin: 0 auto 92px auto;
+      width: calc(100% - 96px);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead {
+    width: calc(100% - 296px);
+  }
+}
