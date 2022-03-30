@@ -1,0 +1,5 @@
+.cover__link {
+  display: grid;
+  justify-items: center;
+  text-decoration: none;
+}

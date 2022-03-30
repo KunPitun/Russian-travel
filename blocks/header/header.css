@@ -1,15 +1,16 @@
 .header {
+  max-width: 1184px;
   width: calc(100% - 32px);
-  height: 42px;
   display: grid;
   grid-template-columns: 1fr repeat(2, max-content);
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
   margin: 0 auto 48px auto;
 }
 
 @media screen and (min-width: 768px) {
   .header {
     width: calc(100% - 48px);
-    height: 52px;
   }
 }
 
